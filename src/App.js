@@ -3,6 +3,8 @@ import './App.css';
 import Greet from './components/Greet';
 import Message from './components/Message';
 import Button from './components/Button';
+import Hello from './components/Hello';
+import Employee from './components/Employee';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload. ------ Joanaaaa
         </p>
+        <p>{Hello()}</p>
+        <Employee/>
         <Greet name="Peter" heroName="spiderman">
           <Message/>
         <p>this is children props</p>

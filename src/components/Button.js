@@ -1,5 +1,6 @@
 import React from "react";
 
+//stateful component
 class Button extends React.Component{
 
     constructor(){
