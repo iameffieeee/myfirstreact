@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 import { useNavigate, useParams } from "react-router-dom";
 import employeeService from "../services/employeeService";
 
+
 const AddEmployee = () =>{
 
    const [name, setName] =  useState ("");
@@ -9,7 +10,7 @@ const AddEmployee = () =>{
    const [department, setDepartment] =  useState ("");
    const navigate = useNavigate();
    const {employeeId} = useParams();
-
+  
    useEffect(
         () =>{
             if (employeeId){
@@ -67,7 +68,6 @@ const AddEmployee = () =>{
        }  
    }
 
-
     return (
         <div className="container">
             <h3>Add Employee</h3>
@@ -112,6 +112,7 @@ const AddEmployee = () =>{
                         />
                     </div>
                     <button type="submit" className="btn btn-primary" onClick={(e) => SaveEmployee(e)}>Save</button>
+                   
                 </form>
         </div>
     )

@@ -1,6 +1,6 @@
 //function Message(){}
 const Message = () => {
-    return <p>this is children props</p>
+    return <h3>Profile:</h3>
 }
 
 export default Message

@@ -80,6 +80,7 @@ const Employee = () =>{
                  </table>
             </div>
         </div>
+        
     )
 
 }

@@ -13,26 +13,31 @@ function Home() {
       <header className="App-header">
       <br></br>
       <br></br>
-        <img src="https://i.giphy.com/media/3o7abAHdYvZdBNnGZq/giphy.webp" className="App-logo" alt="logo" />
+        <img src="https://c.tenor.com/UpRSWvHOzhAAAAAi/squidward-handsome.gif" className="App-logo" alt="logo" />
         <p>
         こんにちわ ------ Joanaaaa
         </p>
         <p>{Hello()}</p>
-        <Greet name="Peter" heroName="spiderman">
+        <Greet name="Squidward" heroName="Grumpy">
           <Message/>
-        <p>this is children props</p>
+          <img src="https://c.tenor.com/coy85skcAxsAAAAC/spongebob-squidward.gif"/>
+        <p>Full Name: Squidward Q. Tentacles</p>
+        <p>Species: Giant octopus</p>
+        <p>Gender: Male</p>
+        <p>Birth date: October 9</p>
+        <p>Education: Bikini Bottom School</p>
+        <p>Relatives: Mrs. Tentacles (mother)</p>
+        <p>Residence: 122 Conch Street, Bikini Bottom, Pacific Ocean</p>
+        <p>Occupation: Cashier at the Krusty Krab</p>
         </Greet>
-        <Greet name="Tony" heroName="iron man">
         <Button></Button>
-        </Greet>
-        <Greet name="Thor" heroName="Thor"/>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.youtube.com/watch?v=E5BzhG_sKUw"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Squiddy Tentacles
         </a>
         <br></br>
       </header>
